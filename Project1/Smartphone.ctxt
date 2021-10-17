@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Smartphone
+comment1.params=
+comment1.target=void\ doPhoto()
+comment2.params=
+comment2.target=void\ showModel()
+comment3.params=
+comment3.target=void\ showName()
+comment4.params=
+comment4.target=void\ procFreq()
+comment5.params=
+comment5.target=void\ screenSize()
+numComments=6
