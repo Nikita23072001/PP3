@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=NewClock
+comment1.params=
+comment1.target=NewClock()
+comment2.params=hour\ minute
+comment2.target=NewClock(byte,\ byte)
+comment3.params=hour\ minute
+comment3.target=void\ SetClock(byte,\ byte)
+comment4.params=
+comment4.target=void\ DisplayTime()
+comment5.params=
+comment5.target=void\ AddOneMinute()
+comment6.params=hour\ minute
+comment6.target=void\ SetAlarm(byte,\ byte)
+comment7.params=
+comment7.target=void\ RunAlarm()
+numComments=8

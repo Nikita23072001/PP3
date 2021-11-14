@@ -1,33 +1,49 @@
+import java.util.Arrays;
 
-/**
- * Write a description of class StudentGrades here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
-public class StudentGrades
-{
-    // instance variables - replace the example below with your own
-    private int x;
+public class StudentGrades {
 
-    /**
-     * Constructor for objects of class StudentGrades
-     */
-    public StudentGrades()
-    {
-        // initialise instance variables
-        x = 0;
+    String studentName;
+    double[] grades;
+
+    StudentGrades(String name, double[] grades) {
+        this.studentName = name;
+        this.grades = grades;
+    }
+    StudentGrades(String name, int numberOfGrades){
+        this.studentName = name;
+        double[] grades = new double[numberOfGrades];
+        for (int i = 0; i < numberOfGrades; i++) {
+            grades[i] = (double)(((int)(Math.random()*7))+4)/2;
+        }
+        this.grades = grades;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    double Lowest(){
+        Arrays.sort(grades);
+       return grades[0];
+    }
+    double Highest(){
+        Arrays.sort(grades);
+        return grades[grades.length-1];
+    }
+    int NumberOfGrades(){
+        return grades.length;
+    }
+    double Average(){
+        double sum = 0;
+        for (int i = 0; i < grades.length; i++) {
+            sum += grades[i];
+
+        }
+        return sum / grades.length;
+    }
+    void Display(){
+        System.out.print(studentName + " : ");
+        for (int i = 0; i < grades.length; i++) {
+            System.out.print(grades[i] + " ");
+        }
+        System.out.println("\nlowest grade :" + Lowest());
+        System.out.println("Highest grade :" + Highest());
+        System.out.println("Average: " + Average());
     }
 }
