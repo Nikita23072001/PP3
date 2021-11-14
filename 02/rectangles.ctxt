@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=rectangles
+comment1.params=x\ y
+comment1.target=rectangles(int,\ int)
+comment2.params=
+comment2.target=int\ perimeter()
+comment3.params=
+comment3.target=int\ surfaceArea()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
