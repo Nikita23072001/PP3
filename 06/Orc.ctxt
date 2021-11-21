@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Orc
+comment1.params=name\ age\ fantasySetting
+comment1.target=Orc(java.lang.String,\ int,\ java.lang.String)
+comment2.params=y
+comment2.target=void\ shout(int)
+comment3.params=
+comment3.target=void\ getWeapon()
+comment4.params=
+comment4.target=void\ dropWeapon()
+comment5.params=
+comment5.target=void\ describeYourself()
+numComments=6

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Customer
+comment1.params=name
+comment1.target=Customer(java.lang.String)
+comment2.params=name
+comment2.target=void\ buy(java.lang.String)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ComputerFile
+comment1.params=name\ hidden\ type\ path
+comment1.target=ComputerFile(java.lang.String,\ boolean,\ java.lang.String,\ java.lang.String)
+comment2.params=name
+comment2.target=void\ rename(java.lang.String)
+comment3.params=hidden
+comment3.target=void\ changeVisibility(boolean)
+comment4.params=type
+comment4.target=void\ changeType(java.lang.String)
+numComments=5
