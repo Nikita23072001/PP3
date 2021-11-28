@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Procesor
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Procesor\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=speed\ cashSize\ numberOfCores
+comment1.target=Procesor(float,\ int,\ int)
+comment2.params=x\ y
+comment2.target=int\ add(int,\ int)
+comment3.params=x\ y
+comment3.target=int\ multiply(int,\ int)
+comment4.params=
+comment4.target=java.lang.String\ showProcSpecs()
+numComments=5

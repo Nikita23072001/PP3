@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Folder
+comment1.params=name
+comment1.target=void\ add(java.lang.String)
+comment2.params=
+comment2.target=void\ displayContent()
+comment3.params=name
+comment3.target=void\ remove(java.lang.String)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
